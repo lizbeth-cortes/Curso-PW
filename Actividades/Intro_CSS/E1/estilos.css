@@ -1,0 +1,36 @@
+/*Selectores de tipo: Delimitan un elemento de HTML*/
+h1 {    
+    color: red;
+    }
+
+p{
+    color:blue;
+    font-size: 16pt;
+}
+/*Por medio de id's se manejan los estilos (selectores de id)*/
+#primero{
+    color:green;
+    font-size: 12pt;
+}
+
+#segundo{
+    color: blueviolet;
+    font-size: 10pt;
+}
+
+/*Por medio de clases se manejan los estilos (Selectores de clases)*/
+.encabezado{
+    color: brown;
+    text-transform: uppercase;
+}
+
+/*Selector universal: Hace refencia a los elementos de cualquier tipo.
+*/
+*{
+color: yellow;
+}
+
+/*Selectores combinados*/
+.under, .encabezado{
+    text-decoration: underline;
+}

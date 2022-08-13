@@ -1,0 +1,51 @@
+/*Estilos para colores*/
+.colores{
+    color:crimson;
+}
+.color_hexadecimal{
+    color: #7DCFB6;
+}
+
+/*Red, green and blue*/
+.color_rgb{
+    color: rgb(100, 0,150);
+}
+
+/*Color Red, green, blue, opacidad(entre 0 y 1)*/
+.color_rgba{
+    color: rgba(10, 10, 10, 0.7)
+}
+
+/*Fondos*/
+
+.fondo{
+    /* background-color: #4C9F70;*/
+    background-image: url("Recursos/pastel_2.jpg");
+    background-position: center center;
+}
+
+.fondo-interno{
+    /* background-color: #4C9F70;*/
+    background-image: url("Recursos/pastel_1.png");
+    background-position: center center;
+}
+
+/*Tamaños*/
+
+.ancho{
+    background-color: aquamarine;
+    width: 100px;
+}
+
+.alto{
+    background-color: darkkhaki;
+    height: 200px;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(16, 14,88);
+    border-width: 1px;
+    /*border-top: none;*/
+    padding: 40px 20px 30px 10px;
+}
